@@ -1,0 +1,131 @@
+* {
+
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    border-bottom:30px #879274;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.large-font {
+    color: yellow;
+    font-size: 3.5em;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    padding-top: 5%;
+}
+
+p1 {
+    color: red;
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 1.5%;
+    margin-left: 40%;
+}
+
+.begin {
+    background: radial-gradient(circle, rgb(4, 196, 45) 0%, rgba(118, 33, 187, 0.954) 100%);
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 2em;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+}
+
+.answer-button {
+    font-size: 18px;
+    background-color: rgba(118, 33, 187, 0.954);
+    cursor: pointer;
+    border-radius: 8px;
+    letter-spacing: 0.21px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 10px 25px;
+    text-align: center;
+    transition-timing-function: linear;
+    margin-top: 0.6em;
+}
+
+a {
+    color: blue;
+    font-size: 1.6em;
+}
+
+.examImg {
+    float: left;
+    max-width: 30%;
+    max-height: 30%;
+    margin: 5%
+}
+
+.bestScores{
+    background: radial-gradient(circle, rgb(4, 196, 45) 0%, rgba(118, 33, 187, 0.954) 100%);
+    border-radius: 8px;
+    color: #13293d;
+    cursor: pointer;
+    font-size: 2em;
+    letter-spacing: 0.25px;
+    line-height: 25px;
+    max-width: 255px;
+    padding: 20px 52px;
+    text-align: center;
+    transition-duration: 0.15s;
+    transition-property: background-color;
+    transition-timing-function: linear;
+    margin-top: 0.6em;}
+
+
+.card {
+        background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,124,33,0.604079131652661) 100%);
+        border: 1px solid #eceff1;
+        border-radius: 8px;
+        box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+          rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
+        margin: auto;
+        padding: 20px;
+}
+
+.large-font {
+        font-size: 3.5em;
+        text-align:center;
+}
+
+.timer {
+        height: 240px;
+        padding: 10px;
+        background: #13293d;
+        color: #fff;
+        text-align: center;
+}
+
+.timer-text {
+        padding: 55px;
+}
+
+
+@media screen and (min-width: 768px){
+    body {
+    flex-direction: column;
+    }
+}

@@ -7,7 +7,9 @@ The objective of this week's assignment was to build a timed coding quiz with mu
 
 Live URL:
 
-
+https://trevorwiegand92.github.io/Super-Duper-Tough-Quiz/
 
 
 Github URL:
+
+https://github.com/trevorwiegand92/Super-Duper-Tough-Quiz

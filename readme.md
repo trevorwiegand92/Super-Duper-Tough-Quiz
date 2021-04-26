@@ -13,3 +13,15 @@ https://trevorwiegand92.github.io/Super-Duper-Tough-Quiz/
 Github URL:
 
 https://github.com/trevorwiegand92/Super-Duper-Tough-Quiz
+
+
+Screenshots:
+
+
+![Here's a screenshot of the finished index page.](./assets/images/index_screenshot.png)
+
+
+![Here's a screenshot of the high scores page.](./assets/images/highscores_screenshot.png)
+
+
+

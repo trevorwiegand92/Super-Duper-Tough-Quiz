@@ -1,3 +1,5 @@
+
+//array containing all the questions, choices, and the correct answers to each question.
 let questions = [
   {
     title: "How many months out of the year have 31 days?",

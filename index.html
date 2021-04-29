@@ -17,15 +17,32 @@
         acquired throughout your life. Mainly trivial knowledge.  But hey it didn't hurt to prepare you to break a mental sweat, albeit a trivial one.</p>
         <button id="start-button" class="begin">Start</button>
     </div>
-    
-    <div id="current-question">How many months out of the year have 31 days?<br>
-            <div id="text-of-question"></div>
-            <button id="first-choice" class="answer-button">(A) 4 Months</button>
-            <button id="second-choice" class="answer-button">(B) 5 Months</button>
-            <button id="third-choice" class="answer-button">(C) 6 Months</button>
-            <button id="fourth-choice" class="answer-button">(D) 7 Months</button>
+   <br>
+   <div id="current-question"></div><br>
+            <div id="text-of-question">
+            <button id="answer-button-0" class="answer-button">(A) 4 Months</button>
+            <button id="answer-button-1" class="answer-button">(B) 5 Months</button>
+            <button id="answer-button-2" class="answer-button">(C) 6 Months</button>
+            <button id="answer-button-3" class="answer-button">(D) 7 Months</button>
+            </div>
     </div>
-    <br><br>
+    <br>
+
+    <h4>timer: <span id="timer">100</span> seconds</h4>
+
+    <br>
+
+    <div id="form" class="form">
+        <div class="final-score">
+            <p>Final Score</p>
+            <p id="finalScore"></p>
+        </div>
+        <p>Enter your initials to be recorded in this quiz's hall of fame!</p>
+        <form action="save-score-form" method="post">
+            <input type="text" id="initials" name="user-initials" placeholder="initials">
+            <button type="submit" class="saveInitials" id="save-score">save score</button>
+        </form>
+    </div>
 
     <script src="./assets/questions.js"></script>
     <script src="./assets/script.js"></script>
@@ -38,7 +55,3 @@
 
 
 
-    <!--class="bestScores" id="save-score"> possible high scores classes-->
-    <!--//span an id to change the questions
-    put each answer in a div
-    put a class on the div containing all the answers

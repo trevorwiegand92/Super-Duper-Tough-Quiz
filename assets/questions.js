@@ -57,7 +57,7 @@ let questions = [
 
   {
     title: "Where does one not simply walk into?",
-    options: ["(A) The White House", "(B) Walmart", "(C) Jail", "(D) Morder"],
+    options: ["(A) The White House", "(B) Walmart", "(C) Jail", "(D) Mordor"],
     theAnswer: "(D) Mordor",
   },
 ];
